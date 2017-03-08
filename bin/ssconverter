@@ -153,7 +153,7 @@ if __name__ == "__main__":
         ooutils.oo_shutdown_if_running()
     else:
         macros_enabled = False
-        if len(argv) == 2  and  argv[1] == '-m':
+        if len(argv) >= 2  and  argv[1] == '-m':
             argv = argv[:1] + argv[2:]
             macros_enabled = True
         if len(argv) < 3  or  len(argv) % 2 != 1:
