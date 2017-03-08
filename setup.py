@@ -6,7 +6,7 @@ import os
 import platform
 
 dir = os.path.dirname(__file__)
-version = "0.1.0"
+version = "0.1.1"
 path_to_readme = os.path.join(dir, "README.md")
 readme = open(path_to_readme).read(-1)
 
