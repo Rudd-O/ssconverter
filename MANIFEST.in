@@ -1,1 +1,5 @@
 include README.md
+include build.parameters
+include Jenkinsfile
+include *.spec
+global-exclude *.py[cod]
